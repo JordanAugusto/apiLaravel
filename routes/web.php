@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Http;
+use App\Http\Controllers\ApiController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,5 +16,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    
+    $requisicao = http::get('https://random-data-api.com/api/v2/users?size=100'); //pegando dados dos usuarios
+    $dados = $requisicao->json();
+
+    return view('index', ['$dados' => $dados]);
 });
