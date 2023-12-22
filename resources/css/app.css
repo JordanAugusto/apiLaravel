@@ -1,0 +1,5 @@
+.ocultarSenha {
+    display: none;
+    visibility: hidden;
+    color: red;
+}
