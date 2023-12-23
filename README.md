@@ -9,10 +9,14 @@
 
 <h1>Pré-requisito</h1>
 
-<p><b>PHP instalado
-Composer instalado
-Docker (opcional, se desejar Dockerizar a aplicação)
-Passos para Executar Localmente
-Clone o repositório:</p></b>
-
-
+<p><b>PHP instalado</p></b>
+<p><b>Composer instalado</p></b>
+<p><b>Docker (opcional)</p></b>
+<p><b>PHP instalado</p></b>
+<p><b>PHP instalado</p></b>
+    
+<h1>Passos para Executar Localmente</h1>
+<p><b>Clone o repositório:</b></p> 
+git clone https://github.com/JordanAugusto/apiLaravel
+cd apiLaravel
+<h1><b>Instale as dependências usando o Composer:</b></h1>
