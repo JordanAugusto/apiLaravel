@@ -13,4 +13,13 @@
 
 ### Instale as dependências usando o Composer
 
-- Instale as dependências usando o Composer:
+1. Instale as dependências `composer install`
+2. Execute a aplicação `php artisan serve`
+3. Acessa a aplicação http://localhost:8000/index 
+
+### Docker (Opcional)
+
+Se desejar Dockerizar a aplicação, certifique-se de ter o Docker e o Docker Compose instalados.
+
+1. Crie e inicie o contêiner Docker `docker-compose up -d`
+2. Acesse http://localhost:8080/
