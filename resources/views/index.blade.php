@@ -33,7 +33,7 @@
                     <td>{{ $usuarios['email'] }}</td>
                     <td>{{ $usuarios['phone_number'] }}</td>
                     <td>{{ date('d/m/Y', strtotime($usuarios['date_of_birth'])) }}</td>
-                    <td class="ocultarSenha">{{ $usuarios['password'] }}</td>
+                    <td>{{ $usuarios['password'] }}</td>
                     <td>{{ $usuarios['employment']['title']}}</td>
                     <td>{{ $usuarios['address']['country']}}</td>
                     <td>{{ $usuarios['address']['city']}}</td>

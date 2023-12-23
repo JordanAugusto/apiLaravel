@@ -23,4 +23,4 @@ use App\Http\Controllers\ApiController;
 //     return view('index', ['dados' => $dados]);
 // });
 
-Route::get('/users', [ApiController::class, 'index'])->name('users.index');
+Route::get('/index', [ApiController::class, 'index'])->name('users.index');
