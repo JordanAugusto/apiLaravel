@@ -15,7 +15,10 @@
 
 1. Instale as dependências `composer install`
 2. Execute a aplicação `php artisan serve`
-3. Acessa a aplicação http://localhost:8000/index 
+3. Caso acontece algum erro relacionado ao serve, sugiro gera outra chave com `php artisan key:generate`
+4. Si de algum erro ao achar o .env certifique de renomea-lo para o padrao (.env)
+5. Após execute novamente a aplicação `php artisan serve`
+6. Acessa a aplicação http://localhost:8000/index 
 
 ### Docker (Opcional)
 
